@@ -1,0 +1,49 @@
+{
+    "tesla": {
+        "parts": {
+            "tower": {
+                "actionZone": 2,
+                "deadZone": 1
+            },
+            "heart": {
+                "mainPart": true,
+                "actionZone": 0
+            }
+        },
+
+        "iconVirusPoints": [
+            [0, 0], [2, 0],
+                [1, 1],
+            [0, 2], [2, 2]
+        ],
+        "price": 10,
+        "label": "teslaLabel"
+    },
+
+    "catapult": {
+        "actionZone": 3,
+        "deadZone": 1,
+        "destructionСost": 1,
+
+        "iconVirusPoints": [
+            [0, 0], [1, 0], [2, 0],
+                    [1, 1]
+        ],
+        "price": 10,
+        "label": "catapultLabel"
+    },
+
+    "hardWall": {
+        "actionZone": 0,
+        "destructionСost": 2,
+
+        "iconVirusPoints": [
+        [0, 0],
+            [1, 1],
+                [2, 2],
+                    [3, 3]
+        ],
+        "price": 10,
+        "label": "hardWallLabel"
+    }
+}
